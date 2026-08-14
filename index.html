@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PinPoint — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the PinPoint iPhone app: everything you enter stays on your device.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #e2e2e6;
+    --accent: #0a68d1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131316;
+      --fg: #ececf0;
+      --muted: #a0a0a8;
+      --rule: #2c2c31;
+      --accent: #5aa9f7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -0.02em; }
+  h2 {
+    font-size: 1.2rem; margin: 2.5rem 0 .75rem; letter-spacing: -0.01em;
+    padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { margin: 0 0 .85rem; }
+  ul { padding-left: 1.25rem; }
+  .updated { color: var(--muted); font-size: .9rem; margin-bottom: 2rem; }
+  .lede { font-size: 1.05rem; }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .875rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PinPoint — Privacy Policy</h1>
+  <p class="updated">Last updated: 13 August 2026</p>
+
+  <p>PinPoint is an iPhone app for tracking physician-prescribed testosterone replacement
+  therapy. This policy describes what the app does with your information.</p>
+
+  <h2>The short version</h2>
+  <p class="lede"><strong>PinPoint does not collect your data.</strong> Everything you enter
+  stays on your iPhone. The app has no accounts, no servers and no analytics, and it makes no
+  network connections at all. Nobody — including the developer — can see what you record.</p>
+
+  <h2>What PinPoint stores on your device</h2>
+  <p>Everything below is written to the app's private storage area on your iPhone, and nowhere
+  else:</p>
+  <ul>
+    <li>Your protocol: substance, dose, frequency, injection route and vial concentration.</li>
+    <li>Your dose log: each dose you record, with its date and time.</li>
+    <li>Blood work: draw dates and the results you enter or import, including the reference
+    ranges your lab printed.</li>
+    <li>A record of which lab report a result was read from: the issuing lab's name, the file's
+    name, and a fingerprint of its contents so the same report isn't imported twice.</li>
+    <li>Wellness and symptom entries.</li>
+    <li>Reminder settings, and app preferences such as units and appearance.</li>
+  </ul>
+
+  <h2>Apple Health</h2>
+  <p>If — and only if — you grant permission, PinPoint reads seven passively collected values
+  from Apple Health: sleep analysis, resting heart rate, systolic and diastolic blood pressure,
+  body mass, step count and exercise minutes.</p>
+  <ul>
+    <li>These are read to display alongside your own entries. PinPoint does not copy them into
+    its own storage; they are held in memory while the app is running.</li>
+    <li>PinPoint <strong>never writes anything back to Apple Health</strong>, and reads no
+    clinical health records.</li>
+    <li>You can revoke access at any time in the iOS Settings app, under Privacy &amp; Security →
+    Health → PinPoint. Health data itself belongs to the Health app, and is deleted there.</li>
+  </ul>
+
+  <h2>Lab reports you import</h2>
+  <p>When you choose a PDF or photo of a lab report, PinPoint reads it entirely on your device,
+  using Apple's on-device text recognition. Nothing is uploaded.</p>
+  <p><strong>PinPoint does not keep a copy of the file.</strong> It reads the document, shows you
+  what it found for you to confirm, and saves the results — along with the lab's name, the file's
+  name and a fingerprint of its contents, so the same report isn't imported twice. Your original
+  file stays wherever you keep it, untouched.</p>
+  <p>PinPoint asks for your permission before it reads a report for the first time, and you can
+  withdraw that permission at any time under <strong>Read Lab Reports</strong> in App
+  Preferences.</p>
+
+  <h2>Reminders</h2>
+  <p>Dose reminders are local notifications scheduled by the app on your device. They are not sent
+  through any server, and no push notification service is used.</p>
+
+  <h2>What PinPoint never does</h2>
+  <ul>
+    <li>No account, sign-in or profile.</li>
+    <li>No analytics, crash reporting, advertising or tracking of any kind — there is no
+    advertising identifier use and nothing to ask you to consent to tracking for.</li>
+    <li>No third-party SDKs, and no data shared with or sold to anyone.</li>
+    <li>No network requests. The app contains no networking code.</li>
+  </ul>
+
+  <h2>Exporting your data</h2>
+  <p>You can export your data as a CSV file and share it — for example, with your prescriber.
+  Once you send that file, it goes wherever you send it and is no longer covered by this policy.
+  Treat it as you would any other document containing your health information.</p>
+
+  <h2>How long it is kept, and how to delete it</h2>
+  <ul>
+    <li>Your data stays on your device until you delete it. There is no expiry, because there is
+    nowhere for it to expire from.</li>
+    <li>Individual doses, draws and entries can be deleted in the app.</li>
+    <li><strong>Delete All Lab Data</strong> in App Preferences removes every blood draw and
+    result, and the record of which report each came from, along with anything the app learned
+    from them.</li>
+    <li><strong>Deleting the app deletes all of it.</strong> Lab report files you imported from
+    are not affected, because PinPoint never held a copy of them — they stay wherever you keep
+    them.</li>
+    <li>If you back up your iPhone — to iCloud or to a computer — that backup may include
+    PinPoint's data. The backup is held under your own Apple Account and governed by Apple's terms
+    and encryption, not by the developer, who cannot access it. You can exclude the app from
+    iCloud Backup in the iOS Settings app.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>PinPoint is intended for adults tracking a prescribed therapy. It is not directed at
+  children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>Any change is published at this address with a new "last updated" date. If a future version
+  of the app ever transmits data off the device, this policy will say so before that version
+  ships.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at
+  <a href="https://github.com/arhoran/pin-point-privacy/issues">github.com/arhoran/pin-point-privacy/issues</a>.</p>
+
+  <footer>PinPoint · privacy policy · published from
+  <a href="https://github.com/arhoran/pin-point-privacy">arhoran/pin-point-privacy</a></footer>
+</main>
+</body>
+</html>
